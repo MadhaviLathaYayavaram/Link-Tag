@@ -6,7 +6,7 @@ Link tag is used in the 'head' section of HTML code. As the Link tag is empty el
 
 ## StyleSheets ##
 
-Stylesheets are coded using CSS design and can be linked in a HTML document to import all the styles into the current elements like headers, paras, input, text, passwords etcetera. Anyways, the inline syles of the front-end document overwrite the styles specified in the linked stylesheets, as they do have higher priority. 
+Stylesheets are coded using CSS design and can be linked in a HTML document to import all the styles into the current elements like headers, paras, input, text, passwords etcetera. Anyways, the inline syles of the front-end document overwrite the styles specified in the linked stylesheets, as they do have higher priority. Event handlers can be declared for the link tag. 
 
 
 ## Link Attributes ##
@@ -17,13 +17,15 @@ Href : This attribute provides the physical path to relate the style sheet. The 
 
 Hreflang :  This attribute allows to inform the type of language used in the linked document. The value is given in a two-letter code.  Ex: hreflang="en"
 
-Media :  
+Media :  The media which is linked to the current document is specified here. The values could be Print, Screen, brailee, and Aural. Media queries will also be identified in advanced versions of browsers where this tag is used. 
 
 Sizes: This allows to specify height and width of the display for the linked resources. It takes 'any' as default if not specified in the tag. For example, We can set  icons size  using "sizes" attribute. ex: sizes="114x114"
 
 Type: It denotes the media file type (MIME) and tells the format of it to the browser. We can make conditions to follow the media in the same attribute which will be executed only when the condition satisfies. Ex: media="screen and (max-width: 600px)",   Ex: media="print",  Ex: type="image/png".
 
+Title : It is used to specify one or an alternative style sheet to be applied in the current document. 
 
 
 
+There are so many non-standard attribute that can be used in the link tag. The main objective of the tag is to innovate the front-end web pages using different source codes and make them responsive which are super advanced in their functionality!
 
